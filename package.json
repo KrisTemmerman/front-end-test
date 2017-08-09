@@ -1,0 +1,8 @@
+{
+  "name": "ananas",
+  "version": "0,0,1",
+  "description": "test project for Yappa",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Kris Temmerman"
+}
