@@ -533,7 +533,14 @@ button, .button {
   height: 2.66rem;
   padding: 0.7333rem 1.067rem  1rem 1rem;
   text-transform: uppercase;
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  outline: none; }
+  button:hover, .button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    transition: 0.3s; }
+  button:focus, .button:focus {
+    outline: none; }
 
 .button--white {
   background-color: white;
