@@ -526,6 +526,43 @@ a {
   font-family: "Open Sans", serif;
   text-decoration: none; }
 
+button, .button {
+  min-width: 10.93rem;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  height: 2.66rem;
+  padding: 0.7333rem 1.067rem  1rem 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem; }
+
+.button--white {
+  background-color: white;
+  color: #CC9132;
+  font-weight: 600; }
+
+.button--transparent {
+  color: #fff;
+  background-color: transparent; }
+
+.jumbotron {
+  background: url("../images/jumbotron.png");
+  background-size: cover;
+  min-height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.jumbotron--content {
+  max-width: 60%;
+  color: #fff;
+  text-align: center; }
+  .jumbotron--content h1 {
+    text-transform: uppercase;
+    font-size: 2rem; }
+  .jumbotron--content p {
+    padding-top: 1rem;
+    padding-bottom: 2rem; }
+
 * {
   box-sizing: border-box;
   margin: 0;

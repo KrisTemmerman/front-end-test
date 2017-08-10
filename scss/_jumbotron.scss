@@ -1,0 +1,27 @@
+.jumbotron{
+  background:url('../images/jumbotron.png');
+  background-size:cover;
+  min-height: 520px;;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+.jumbotron--content{
+  max-width:60%;
+  color:#fff;
+  text-align: center;
+
+  h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  p{
+    padding-top:1rem;
+    padding-bottom:2rem;
+  }
+
+
+
+}
