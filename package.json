@@ -7,7 +7,7 @@
   "author": "Kris Temmerman",
   "dependencies": {
     "gulp": "^3.9.1",
-    "inuitcss": "^6.0.0-beta.5"
+    "normalize-scss": "^7.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
