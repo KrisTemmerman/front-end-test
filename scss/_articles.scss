@@ -1,0 +1,31 @@
+.articles{
+  h4{
+    font-size:1.2rem;
+    font-weight: $semi-bold;
+  }
+}
+
+.article--content{
+  padding-top:0;
+  padding-left:15px;
+}
+
+.article--image{
+  width:100%
+}
+
+.article--date{
+  padding-left:20px;
+  position:relative;
+  color:$orange;
+  font-weight: $bold;
+  &:before{
+    content:"";
+    position:  absolute;
+    top: 4px;
+    left: 0px;
+    height: 12px;
+    width: 12px;
+    background-image:url('../images/icons/calendar.svg');
+  }
+}

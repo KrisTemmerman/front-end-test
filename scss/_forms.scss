@@ -1,0 +1,41 @@
+.form--newsletter{
+
+.form--newsletter-label{
+  font-size:1.333rem;
+  font-weight:$extra-bold;
+  text-align:right;
+  color:#fff;
+  line-height: 3rem;
+  float:right;
+  padding-right:3rem;
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERY GOES HERE */
+
+.form--newsletter-subscribe{
+  position: relative;
+    height:2.933rem;
+    border:none;
+    float:left;
+    width:60%;
+    background-color:$light-orange;
+    padding-left:1rem;
+    font-size:1rem;
+    color:$orange;
+    &:focus{
+      outline:none;
+    }
+  }
+  .form--newsletter-submit{
+      height:2.933rem;
+      border:none;
+      width:35%;
+      float:left;
+      background-color:#fff;
+      font-size:0.9rem;
+      font-weight: $bold;
+      text-transform: uppercase;
+      color:$orange;
+    }
+}

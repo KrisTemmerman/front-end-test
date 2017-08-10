@@ -1,0 +1,13 @@
+.img-circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url('../images/testiauthor.png') center top -20px no-repeat;
+    float:right;
+}
+.img-circle img{
+  opacity: 0;
+	filter: alpha(opacity=0);
+}

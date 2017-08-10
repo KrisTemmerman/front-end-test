@@ -18,5 +18,16 @@
   background-color:$light-orange;
   background-image:url('../images/pineapplebg.svg');
   background-repeat:no-repeat;
-  background-position:right 20rem top 2rem;
+  background-position:right 16rem top 2rem;
+}
+
+.block--pinegrad{
+    background-color:$light-orange;
+    background-image:url('../images/pineapple-pattern.svg');
+
+}
+.block--newsletter{
+  padding:40px 0;
+  background-color:$orange;
+  height:7.067rem;
 }

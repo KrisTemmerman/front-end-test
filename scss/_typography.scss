@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:3OO,400,600,700,800);
 
 $open-sans: 'Open Sans', serif;
 
 
 //FONT STYLES //
-
+$light:300;
 $normal:400;
 $semi-bold: 600;
 $bold: 700;
@@ -15,6 +15,14 @@ h1{
   color:$orange;
   text-transform: uppercase;
   font-weight: $extra-bold;
+}
+h2{
+  font-size:1.067rem;
+  color:$orange;
+  font-weight: $bold;
+}
+.heading--white{
+  color:white;
 }
 
 p{
