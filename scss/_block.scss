@@ -1,0 +1,22 @@
+.block{
+  margin: 4.667rem 0;
+}
+
+.block--content{
+  p{
+    padding: 1.733rem 0 2rem 0;
+  }
+}
+
+.block--image img{
+  width:90%;
+}
+
+.block--singlepine{
+
+  padding: 4.667rem 0 6.333rem 0;
+  background-color:$light-orange;
+  background-image:url('../images/pineapplebg.svg');
+  background-repeat:no-repeat;
+  background-position:right 20rem top 2rem;
+}

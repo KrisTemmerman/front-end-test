@@ -29,3 +29,12 @@ button, .button{
   color:#fff;
   background-color:rgba(0,0,0,0)
 }
+
+.buttongroup{
+  display:inline-block;
+  >button:not(:first-child){
+    margin-left:1.33rem;
+  }
+
+
+}

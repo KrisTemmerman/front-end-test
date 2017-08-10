@@ -1,0 +1,27 @@
+.list{
+
+}
+
+.list--emphasized{
+  list-style-type:none;
+  padding:2.133rem 0;
+  >li{
+    position:relative;
+    color:$dark-gray;
+    margin-left:2rem;
+    max-width:40%;
+    line-height: 1.2rem;
+    padding-top:0.93rem;
+    font-weight:600;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 17px;
+      left: -31px;
+      height: 16px;
+      width: 22px;
+      background-image: url('../images/list-style-ok.svg');
+     }
+  }
+}

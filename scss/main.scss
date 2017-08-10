@@ -6,7 +6,7 @@
 /* Colors */
 @import "colors";
 /* Fonts */
-@import "fonts";
+@import "typography";
 /* GRID */
 @import "grid";
 
@@ -16,17 +16,20 @@
 
 @import "buttons";
 
-@import "jumbotron";
-*{
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-body{
+@import "block";
 
+@import "jumbotron";
+
+@import "lists";
+*{
+  padding:0;
+  margin-top:0;
+  margin-bottom:0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-top:0;
   font-family: $open-sans;
   color:black;
   font-size:15px;

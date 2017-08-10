@@ -1,4 +1,14 @@
 a{
   font-family: $open-sans;
   text-decoration: none;
+  color:$orange;
+}
+
+
+.link--readmore{
+  margin-top:2rem;
+  font-weight:$semi-bold;
+  &:after{
+    content:"→"
+  }
 }

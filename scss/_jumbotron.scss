@@ -9,19 +9,21 @@
 }
 
 .jumbotron--content{
-  max-width:60%;
+  max-width:65%;
   color:#fff;
   text-align: center;
 
   h1{
-    text-transform: uppercase;
+  font-weight: $extra-bold;
     font-size: 2rem;
+    color:#fff;
   }
   p{
     padding-top:1rem;
     padding-bottom:2rem;
+    font-size: 1.067rem;
+    font-weight:$semi-bold;
+    color:#fff;
   }
-
-
 
 }
