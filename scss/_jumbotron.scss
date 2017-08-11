@@ -27,3 +27,12 @@
   }
 
 }
+
+@media screen and (max-width: 725px) {
+  .jumbotron--content{
+    max-width:95%;
+    .button{
+      min-width:5rem;
+    }
+  }
+}

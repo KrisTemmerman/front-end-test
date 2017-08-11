@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,23 @@
 	<title>ANANAS - Homepage</title>
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 	<header id="header">
 		<div class="row">
 			<div class="header--shortcontact col-xs-12">
-					<div class="container">
-						<ul class="list-inline">
-								<li><a href="#">+32 11 74 06 96</a></li>
-								<li><a href="#">info@ananas.be</a></li>
-								<li><a href="#"> NL</a>
-						</ul>
+				<div class="container">
+					<ul class="header--shortcontact-list">
+						<li><a href="#">+32 11 74 06 96</a></li>
+						<li><a href="#">info@ananas.be</a></li>
+						<li>
+							<select class="header--lang">
+								<option value="NL">NL</option>
+								<option value="FR">FR</option>
+							</select>
+
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -25,22 +33,35 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="header--logo col-xs-1  col-sm-2 col-md-2">
-								<img src="images/logo.png" srcset="/images/logo@2.png 2x"  alt="ANANAS LOGO">
+						<div class="header--logo col-xs-2  col-sm-3 col-md-2">
+							<img src="images/logo.png" srcset="/images/logo@2.png 2x" alt="ANANAS LOGO">
 						</div>
-						<nav class="col-xs-11  col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1">
-								<ul class="header--navigation-main">
-										<li><a href="#">Wie we zijn</a></li>
-										<li><a href="#">Wat we doen</a></li>
-										<li><a href="#">Locaties</a></li>
-										<li><a href="#">Contact</a></li>
-										<li class="header--navigation-sub--item"><a href="#">Nieuws</a></li>
-										<li class="header--navigation-sub--item"><a href="#">Jobs</a></li>
-										<li class="header--navigation-sub--item"><a href="#">Veelgestelde vragen</a></li>
-								</ul>
-
+						<nav class="col-xs-10  col-sm-9  col-md-9 col-md-offset-1">
+							<ul class="header--navigation-main">
+								<li><a href="#">Wie we zijn</a></li>
+								<li><a href="#">Wat we doen</a></li>
+								<li><a href="#">Locaties</a></li>
+								<li><a href="#">Contact</a></li>
+								<li class="header--navigation-sub--item"><a href="#">Nieuws</a></li>
+								<li class="header--navigation-sub--item"><a href="#">Jobs</a></li>
+								<li class="header--navigation-sub--item"><a href="#">Veelgestelde vragen</a></li>
+							</ul>
 						</nav>
 
+					</div>
+					<div class="row hidden">
+						<div class="col-xs-12">
+							<select name="navigation"  class=" header--navigation-menu-resp-select">
+								<option value="-1"> Menu</option>
+								<option value="wie we zijn"> Wie we zijn</option>
+								<option value="Wat we doen"> Wat we doen</option>
+								<option value="Locaties"> </option>
+								<option value="Contact"> Contact</option>
+								<option value="Jobs"> Jobs</option>
+								<option value="Nieuws"> Nieuws</option>
+								<option value="Veelgestelde vragen">Veelgestelde vragen</option>
+							</select>
+						</div>
 					</div>
 
 				</div>
@@ -51,34 +72,37 @@
 
 	<div class="row">
 		<div class="col-xs-12">
-				<div class="jumbotron">
-						<div class="jumbotron--content">
-							<h1> De ananas valt niet ver van de boom </h1>
-							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-								<div class="buttongroup">
-									<button class="button button--white"> Contacteer Ons</button>
-									<button class="button button--transparent"> Wat we doen</button>
-								</div>
-						</div>
+			<div class="jumbotron">
+				<div class="jumbotron--content">
+					<h1> De ananas valt niet ver van de boom </h1>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+						mollitia animi.</p>
+					<div class="buttongroup">
+						<button class="button button--white"> Contacteer Ons</button>
+						<button class="button button--transparent"> Wat we doen</button>
+					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-12 block">
 			<div class="container">
 				<div class="row">
-						<div class="col-md-6 block--image">
-							<img src="images/articleimage.png" srcset="images/articleimage@2.png 2x"  alt="Wat we doen">
-						</div>
-						<div class="col-md-6 block--content">
-							<h1> Wat we doen </h1>
-							<p>
-								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi. t vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
-							</p>
+					<div class="col-md-6 block--image">
+						<img src="images/articleimage.png" srcset="images/articleimage@2.png 2x" alt="Wat we doen">
+					</div>
+					<div class="col-md-6 block--content">
+						<h1> Wat we doen </h1>
+						<p>
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+							animi. t vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia
+							deserunt mollitia animi.
+						</p>
 
-							<a href="#" class="link--readmore" > Meer lezen </a>
-						</div>
+						<a href="#" class="link--readmore"> Meer lezen </a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,14 +110,14 @@
 	<div class="row">
 		<div class="col-xs-12 block block--singlepine">
 			<div class="container">
-					<h1> Waarom Ananas </h1>
-					<ul class="list--emphasized">
-						<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
-						<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
-						<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
-					</ul>
+				<h1> Waarom Ananas </h1>
+				<ul class="list--emphasized">
+					<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
+					<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
+					<li>Voluptatum deleniti atque corrupti quos dolores et quas molestias exceptur</li>
+				</ul>
 
-					<a href="#" class="link--readmore">Contacteer ons </a>
+				<a href="#" class="link--readmore">Contacteer ons </a>
 			</div>
 		</div>
 	</div>
@@ -131,7 +155,7 @@
 					<li class="badge--description">Gespecialiseerde ananasmedewerkers</li>
 				</ul>
 			</div>
-			<a href="#" class="link--readmore" > Meer over ons</a>
+			<a href="#" class="link--readmore"> Meer over ons</a>
 		</div>
 	</div>
 
@@ -146,7 +170,7 @@
 						</blockquote>
 					</div>
 					<div class="col-md-2">
-						<div class="img-circle"> <img src="images/testiauthor.png"  alt=""></div>
+						<div class="img-circle"> <img src="images/testiauthor.png" alt=""></div>
 					</div>
 				</div>
 			</div>
@@ -157,75 +181,115 @@
 			<div class="container">
 				<div class="row articles block">
 					<div class="col-md-2 col-xs-12">
-						<img class="article--image" src="images/jaguar.png"  srcset="images/jaguar@2.png 2x" alt="">
+						<img class="article--image" src="images/jaguar.png" srcset="images/jaguar@2.png 2x" alt="">
 					</div>
 					<div class="col-md-3 col-xs-12 article--content">
 						<span class="article--date"> 01 - 02 - 2017</span>
 						<h4>5 zaken die je nog niet wist over ananas.</h4>
 						<p>
-							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+							animi.
 						</p>
-							<a href="#" class="link--readmore">Meer lezen</a>
+						<a href="#" class="link--readmore">Meer lezen</a>
 					</div>
 
 					<div class="col-md-2 col-xs-12 col-md-offset-2 ">
-						<img class="article--image"  src="images/catpaw.png" srcset="images/catpaw@2.png 2x" alt="">
+						<img class="article--image" src="images/catpaw.png" srcset="images/catpaw@2.png 2x" alt="">
 					</div>
 					<div class="col-md-3 col-xs-12 article--content">
 						<span class="article--date"> 01 - 02 - 2017</span>
 
 						<h4>5 zaken die je nog niet wist over ananas.</h4>
 						<p>
-							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+							At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+							animi.
 						</p>
 						<a href="#" class="link--readmore">Meer lezen</a>
 					</div>
 
 				</div>
 			</div>
-			</div>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 block--newsletter">
 			<div class="container">
 				<form class="form--newsletter">
-				<div class="row">
-					<div class="col-sm-6 col-xs-12">
-						<label for="form--newsletter-subscribe" class="form--newsletter-label">Schrijf je in voor onze nieuwsbrief</label>
+					<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<label for="form--newsletter-subscribe" class="form--newsletter-label">Schrijf je in voor onze nieuwsbrief</label>
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<input type="text" class="form--newsletter-subscribe">
+							<button class="form--newsletter-submit "> inschrijven</button>
+						</div>
 					</div>
-					<div class="col-sm-6 col-xs-12">
-						<input type="text" class="form--newsletter-subscribe">
-						<button class="form--newsletter-submit "> inschrijven</button>
-					</div>
-				</div>
 				</form>
 			</div>
 		</div>
 	</div>
-<!--
+
+
+<footer class="container block--footer">
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="container">
-				<footer class="block">
-					<img src="images/logo.png" srcset="/images/logo@2.png 2x"  alt="ANANAS LOGO">
-					<div class="row">
-						<div class="col-sm-4">
-							<ul class="list">
-								<li>SITEMAP</li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-						<div class="col-sm-4"></div>
-						<div class="col-sm-4"></div>
-					</div>
-				</footer>
+					<img class="block--footer-logo" src="images/logo.png" srcset="/images/logo@2.png 2x" alt="ANANAS LOGO">
 			</div>
 		</div>
 	</div>
--->
+	<div class="row">
+		<div class="col-sm-4 block--footer-sitemap">
+			<h5>Sitemap</h5>
+			<ul class="block--footer-sitemap-list">
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Wie we zijn</a>
+				</li>
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Wat we doen</a>
+				</li>
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Locaties</a>
+				</li>
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Nieuws</a>
+				</li>
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Jobs</a>
+				</li>
+				<li class="block--footer-sitemap-list-item">
+					<a href="#">Veelgestelde vragen</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<h5>Contacteer Ons</h5>
+			<address class="block--footer-address">
+					Langeveldstraat 46 <br>
+					3570 Alken <br>
+					Limburg, België
+			</address>
+			<ul class="block--footer-shortcontact">
+				<li class="block--footer-shortcontact-phone">+32 11 74 06 96</li>
+				<li class=block--footer-shortcontact-mail><a href="mailto:info@yappa.be">info@yappa.be</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-4">
+			<h5>Volg ons</h5>
+			<ul class="block--footer-social">
+				<li><a href="#"><img src="images/icons/facebook.svg"></a</li>
+				<li><a href="#"><img src="images/icons/linkedin.svg"></a></li>
+				<li><a href="#"><img src="images/icons/ig.svg"></a</li>
+				<li><a href="#"><img src="images/icons/twitter.svg"></a</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
 </body>
+
 </html>
